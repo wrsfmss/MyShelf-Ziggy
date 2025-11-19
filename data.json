@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-11-19T15:43:00Z",
+  "system": {
+    "name": "Ziggy",
+    "description": "Data automation system for personal project management and file organization",
+    "status": "active"
+  },
+  "projects": [],
+  "tasks": [],
+  "files": {
+    "tracked": [],
+    "archived": [],
+    "purged": []
+  },
+  "workflows": {
+    "archivedata": {
+      "enabled": true,
+      "schedule": "weekly",
+      "lastRun": null
+    },
+    "purgedata": {
+      "enabled": true,
+      "schedule": "monthly", 
+      "lastRun": null
+    },
+    "syncdata": {
+      "enabled": true,
+      "schedule": "daily",
+      "lastRun": null
+    }
+  },
+  "settings": {
+    "autoArchive": true,
+    "retentionDays": 90,
+    "notificationsEnabled": true,
+    "backupEnabled": true
+  },
+  "metadata": {
+    "createdBy": "Ziggy System",
+    "repository": "MyShelf-Ziggy",
+    "branch": "main"
+  }
+}
